@@ -13,11 +13,17 @@ or use the host command or dig command as follows:
 or
 `$ dig TXT +short o-o.myaddr.l.google.com @ns1.google.com`
 
+
 ![Sample output](https://www.cyberciti.biz/media/new/faq/2016/06/my-public-ip.jpg)
+
 
 ##### Run the bash file
 `$ sudo bash openvpn-install.sh`
+
+
 ![run](https://www.cyberciti.biz/media/new/faq/2016/06/openvpn-setup.jpg)
+
+
 
 ##### How to see added firewall rules ?
 `$ cat /etc/rc.local`
