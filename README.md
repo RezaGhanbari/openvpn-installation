@@ -7,14 +7,14 @@
 or
 `$ ip addr show eth1`
 
-Or use the host command or dig command as follows:
+or use the host command or dig command as follows:
 `$ host myip.opendns.com resolver1.opendns.com`
 
-OR
+or
 `$ dig TXT +short o-o.myaddr.l.google.com @ns1.google.com`
 
 ##### Run the bash file
 `$ sudo bash openvpn-install.sh`
 
 ##### How to view connected users to open vpn server?
-`$ cat /etc/openvpn/openvpn-status.log`
+`$ sudo cat /etc/openvpn/openvpn-status.log`
