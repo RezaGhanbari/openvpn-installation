@@ -4,8 +4,7 @@
 
 ##### Use any one of the following command to find out your IPv4 public address. If your internface name is eth0 or eth1, enter:
 `$ ip addr show eth0`
-
-OR
+or
 `$ ip addr show eth1`
 
 Or use the host command or dig command as follows:
@@ -16,3 +15,6 @@ OR
 
 ##### Run the bash file
 `$ sudo bash openvpn-install.sh`
+
+##### How to view connected users to open vpn server?
+`$ cat /etc/openvpn/openvpn-status.log`
