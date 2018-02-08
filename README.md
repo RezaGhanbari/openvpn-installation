@@ -75,7 +75,7 @@ Your Linux system will automatically connect when computer restart using /etc/in
 For systemd based system, use the following command:
 `$ sudo systemctl start openvpn@client`
 
-#--## How do I add a new client?
+### How do I add a new client?
 run the script again:
 `$ sudo bash openvpn-install.sh`
 then select option 1 and type client name
