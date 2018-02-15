@@ -1,4 +1,7 @@
-# openvpn-installation
+# I HAVE COPIED THIS CODE AND ALL IMAGES FROM [HERE](https://www.cyberciti.biz/faq/howto-setup-openvpn-server-on-ubuntu-linux-14-04-or-16-04-lts/) FOR SIMPLE USAGE AND ACCESS
+
+
+## openvpn-installation
 
 ## Find your public IP address
 
@@ -84,3 +87,6 @@ then select option 1 and type client name
 Run the script:
 `$ sudo bash openvpn-install.sh`
 Type 2 option and you will see a list of all the existing client certificate you want to revoke.
+
+#### REFERENCE 
+https://www.cyberciti.biz/faq/howto-setup-openvpn-server-on-ubuntu-linux-14-04-or-16-04-lts/
